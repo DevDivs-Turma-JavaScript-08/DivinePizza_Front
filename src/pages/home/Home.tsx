@@ -17,8 +17,8 @@ function Home() {
 							funcionam.
 						</p>
 						<p className="text-base leading-relaxed">
-							Em um mercado tão competitivo, ter um CRM não é só uma ferramenta de gestão — é o **diferencial** para fidelizar sua clientela e fazer
-							da sua pizzaria uma verdadeira referência de qualidade.
+							Em um mercado tão competitivo, ter um CRM não é só uma ferramenta de gestão — é o <span className="font-bold"> diferencial </span> para fidelizar sua clientela
+							e fazer da sua pizzaria uma verdadeira referência de qualidade.
 						</p>
 						<div className="flex justify-center lg:justify-start pt-4">
 							<Link to="/clientes">
