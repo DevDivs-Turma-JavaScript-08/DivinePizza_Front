@@ -1,13 +1,13 @@
 import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
-import Clientes from './pages/clientes/Clientes'
+import Insights from './pages/insights/Insights'
 
 function App() {
 
   return (
     <div>
       <Navbar />
-      <Clientes />
+      <Insights />
       <Footer />
     </div>
   )
