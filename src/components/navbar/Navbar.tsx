@@ -4,8 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Navbar() {
 	return (
 		<header className="w-full h-[5rem] flex justify-between items-center">
-			<div className="flex ml-10 gap-16">
-				<p>Logo</p>
+			<div className="flex items-center ml-10 mt-1 gap-16 h-fit">
+        
+				<img src="https://i.imgur.com/1q7aDER.png" className="w-45"></img>
+
 				<ul className="flex gap-4">
 					<li className="px-12 py-1 rounded-2xl bg-(--secondary) text-white">Clientes</li>
 					<li className="px-12 py-1 rounded-2xl bg-(--secondary) text-white">Insights</li>

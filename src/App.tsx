@@ -5,7 +5,7 @@ import Clientes from './pages/clientes/Clientes'
 function App() {
 
   return (
-    <div>
+    <div className='flex flex-col items-stretch'>
       <Navbar />
       <Clientes />
       <Footer />
