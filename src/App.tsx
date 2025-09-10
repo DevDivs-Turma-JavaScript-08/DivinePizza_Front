@@ -3,6 +3,8 @@ import Navbar from "./components/navbar/Navbar";
 import Clientes from "./pages/clientes/Clientes";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contato from "./pages/contato/Contato";
+import InfoClientes from "./components/infoclients/InfoClients";
+import Insights from "./pages/insights/Insights";
 
 function App() {
 	return (
@@ -11,9 +13,10 @@ function App() {
 				<Navbar />
 				<Routes>
 					<Route path="/" element={<Clientes />} />
-					<Route path="/insights" element={<Clientes />} />
+					<Route path="/insights" element={<Insights />} />
 					<Route path="/suporte" element={<Contato />} />
 					<Route path="/clientes" element={<Clientes />} />
+					<Route path="/clientes/info" element={<InfoClientes />} />
 				</Routes>
 				<Footer />
 			</div>

@@ -5,7 +5,7 @@ function Contato() {
 		{
 			id: 1,
 			nome: "Agata",
-			linkedin: "linkedin.com/in/agata",
+			linkedin: "linkedin.com/in/",
 			linkedinLink: "linkedin.com/in/agata",
 			email: "agata@gmail.com",
 			github: "agata",
@@ -15,50 +15,50 @@ function Contato() {
 		{
 			id: 2,
 			nome: "Alex",
-			linkedin: "linkedin.com/in/alex",
-			linkedinLink: "linkedin.com/in/alex",
-			email: "agata@gmail.com",
-			github: "agata",
+			linkedin: "linkedin.com/in/",
+			linkedinLink: "linkedin.com/in",
+			email: "alex@gmail.com",
+			github: "alex",
 			githubLink: "link",
 			foto: "https://i.imgur.com/r9JoYhT.png",
 		},
 		{
 			id: 3,
 			nome: "Grazielle",
-			linkedin: "linkedin.com/in/alex",
-			linkedinLink: "linkedin.com/in/alex",
+			linkedin: "linkedin.com/in",
+			linkedinLink: "linkedin.com/in",
 			email: "grazielle@gmail.com",
-			github: "agata",
+			github: "grazielle",
 			githubLink: "link",
 			foto: "https://i.imgur.com/Q1Z67IP.png",
 		},
 		{
 			id: 4,
 			nome: "Letícia",
-			linkedin: "linkedin.com/in/alex",
-			linkedinLink: "linkedin.com/in/alex",
-			email: "agata@gmail.com",
-			github: "agata",
+			linkedin: "linkedin.com/in/",
+			linkedinLink: "linkedin.com",
+			email: "letícia@gmail.com",
+			github: "letícia",
 			githubLink: "link",
 			foto: "https://i.imgur.com/U6lUbHW.png",
 		},
 		{
 			id: 5,
 			nome: "Lucas",
-			linkedin: "linkedin.com/in/alex",
-			linkedinLink: "linkedin.com/in/alex",
-			email: "agata@gmail.com",
-			github: "agata",
+			linkedin: "linkedin.com/in/",
+			linkedinLink: "linkedin.com/in/lucas",
+			email: "lucas@gmail.com",
+			github: "lucas",
 			githubLink: "link",
 			foto: "https://i.imgur.com/EuTNqNp.png",
 		},
 		{
 			id: 6,
 			nome: "Pedro",
-			linkedin: "linkedin.com/in/alex",
-			linkedinLink: "linkedin.com/in/alex",
-			email: "agata@gmail.com",
-			github: "agata",
+			linkedin: "linkedin.com/in/",
+			linkedinLink: "linkedin.com/in/pedro",
+			email: "pedro@gmail.com",
+			github: "pedro",
 			githubLink: "link",
 			foto: "https://i.imgur.com/0kpfncl.png",
 		},
@@ -70,9 +70,11 @@ function Contato() {
 				<div className="flex flex-col w-full h-full items-center">
 					<div className="text-center w-full p-4"> Contate um dos nossos desenvolvedores </div>
 
-					<div className="grid grid-cols-2 justify-items-center gap-y-4 gap-x-12 w-[50%]">
+					<div className="grid grid-cols-2 justify-items-center gap-y-4 gap-x-12 w-fit">
 						{devs.map((d) => (
-							<ContatoCard key={d.id} devs={d} />
+							
+								<ContatoCard key={d.id} devs={d} />
+							
 						))}
 					</div>
 				</div>
