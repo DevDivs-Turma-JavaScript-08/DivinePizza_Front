@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contato from "./pages/contato/Contato";
 import InfoClientes from "./components/infoclients/InfoClients";
 import Insights from "./pages/insights/Insights";
+import Home from "./pages/home/Home";
 
 function App() {
 	return (
@@ -12,7 +13,7 @@ function App() {
 			<div className="flex flex-col items-stretch">
 				<Navbar />
 				<Routes>
-					<Route path="/" element={<Clientes />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/insights" element={<Insights />} />
 					<Route path="/suporte" element={<Contato />} />
 					<Route path="/clientes" element={<Clientes />} />

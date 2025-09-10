@@ -6,7 +6,9 @@ function Navbar() {
 	return (
 		<header className="w-full h-[5rem] flex justify-between items-center">
 			<div className="flex items-center ml-10 mt-1 gap-16 h-fit">
-				<img src="https://i.imgur.com/1q7aDER.png" className="w-45"></img>
+				<Link to="/">
+					<img src="https://i.imgur.com/1q7aDER.png" className="w-45"></img>
+				</Link>
 
 				<ul className="flex gap-4">
 					<Link to="/clientes">
