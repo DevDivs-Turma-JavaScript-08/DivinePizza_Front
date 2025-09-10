@@ -1,0 +1,53 @@
+:root {
+  /* Primary — vermelho destaque (#CF3223) */
+  --primary-ex-light: #f3ccc8;
+  --primary-light: #e79891;
+  --primary: #cf3223;
+  --primary-dark: #9b261a;
+  --primary-ex-dark: #681912;
+  --primary-ex-dark-opacity: #68191280;
+
+  /* Secondary — vinho profundo (#871B11) */
+  --secondary-ex-light: #e1c6c4;
+  --secondary-light: #c38d88;
+  --secondary: #871b11;
+  --secondary-dark: #65140d;
+  --secondary-ex-dark: #440e08;
+  --secondary-ex-dark-opacity: #440e0880;
+
+  /* Tertiary — verde equilíbrio (#3D6D41) */
+  --tertiary-ex-light: #cedad0;
+  --tertiary-light: #9eb6a0;
+  --tertiary: #3d6d41;
+  --tertiary-dark: #2e5231;
+  --tertiary-ex-dark: #1e3620;
+  --tertiary-ex-dark-opacity: #1e362080;
+
+  /* Auxiliary 1 — oliva terroso (#413A21) */
+  --auxiliary1-ex-light: #d0cec8;
+  --auxiliary1-light: #a09c90;
+  --auxiliary1: #413a21;
+  --auxiliary1-dark: #312c19;
+  --auxiliary1-ex-dark: #201d10;
+  --auxiliary1-ex-dark-opacity: #201d1080;
+
+  /* Auxiliary 2 — marrom escuro (#450600) */
+  --auxiliary2-ex-light: #d0c1bf;
+  --auxiliary2-light: #a28280;
+  --auxiliary2: #450600;
+  --auxiliary2-dark: #340400;
+  --auxiliary2-ex-dark: #220300;
+  --auxiliary2-ex-dark-opacity: #22030080;
+
+  /* Neutros & utilidades */
+  --dark-ex-light: #5a5a5a;
+  --dark-light: #2e2e2e;
+  --dark: #1a1a1a;
+  --dark-dark: #0d0d0d;
+  --dark-dark-opacity: #0d0d0d80;
+  --dark-ex-dark: #000000;
+
+  --white: #ffffff;
+  --black: #000000;
+  --alert: #cf3223;
+}
