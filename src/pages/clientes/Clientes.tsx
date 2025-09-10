@@ -5,6 +5,80 @@ import NewClient from "../../components/newclientform/NewClient";
 function Clientes() {
 	const [searchTerm, setSearchTerm] = useState("");
 
+  const client = [
+    {
+      id: 1,
+      nome: "Fulano 1",
+      ultimoPedido: "há 8 dias",
+      qntPedidos: 10,
+      telefone: "(11) 9 8915-7255",
+    },
+    {
+      id: 2,
+      nome: "Maria Oliveira",
+      ultimoPedido: "há 2 dias",
+      qntPedidos: 5,
+      telefone: "(11) 9 8456-1234",
+    },
+    {
+      id: 3,
+      nome: "João Pereira",
+      ultimoPedido: "há 15 dias",
+      qntPedidos: 12,
+      telefone: "(11) 9 9987-6543",
+    },
+    {
+      id: 4,
+      nome: "Carla Santos",
+      ultimoPedido: "há 30 dias",
+      qntPedidos: 3,
+      telefone: "(11) 9 9123-4567",
+    },
+    {
+      id: 5,
+      nome: "Ricardo Lima",
+      ultimoPedido: "há 7 dias",
+      qntPedidos: 8,
+      telefone: "(11) 9 9345-6789",
+    },
+    {
+      id: 6,
+      nome: "Fernanda Souza",
+      ultimoPedido: "há 1 dia",
+      qntPedidos: 20,
+      telefone: "(11) 9 8765-4321",
+    },
+    {
+      id: 7,
+      nome: "Gabriel Almeida",
+      ultimoPedido: "há 3 dias",
+      qntPedidos: 6,
+      telefone: "(11) 9 9234-5678",
+    },
+    {
+      id: 8,
+      nome: "Juliana Costa",
+      ultimoPedido: "há 12 dias",
+      qntPedidos: 9,
+      telefone: "(11) 9 9345-1234",
+    },
+    {
+      id: 9,
+      nome: "Paulo Henrique",
+      ultimoPedido: "há 60 dias",
+      qntPedidos: 2,
+      telefone: "(11) 9 9876-5432",
+    },
+    {
+      id: 10,
+      nome: "Beatriz Martins",
+      ultimoPedido: "há 5 dias",
+      qntPedidos: 14,
+      telefone: "(11) 9 9123-9876",
+    },
+  ];
+  
+
 	return (
 		<div className="flex flex-col h-fit mx-8 my-4">
 			<div className="flex justify-center gap-2 items-center w-full h-fit">
@@ -172,13 +246,9 @@ function Clientes() {
 				</div>
 
 				<div className="p-4 flex content-start flex-wrap gap-4 gap-y-4 rounded-2xl bg-[#E77F7350] w-[73%] h-fit justify-center">
-					<ClientCard />
-					<ClientCard />
-					<ClientCard />
-					<ClientCard />
-					<ClientCard />
-					<ClientCard />
-					<ClientCard />
+					{client.map((c) => (
+            <ClientCard key={c.id} client={c} />
+          ))}
 				</div>
 			</div>
 		</div>
