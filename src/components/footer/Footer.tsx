@@ -7,7 +7,9 @@ function Footer() {
 			<img src="https://i.imgur.com/hZ0mApa.png" className=""></img>
 			<div className="flex items-center justify-between bg-(--tertiary) h-[10rem] text-white">
 				<p className="ml-10">DivinePizza - 2025 - By DevDivs TM</p>
-				<FontAwesomeIcon icon={faGithub} size="3x" color="white" />
+				<a href="https://github.com/DevDivs-Turma-JavaScript-08/DivinePizza_Front" target="_blank">
+					<FontAwesomeIcon icon={faGithub} size="3x" color="white" />
+				</a>
 				<div className="flex flex-col items-center gap-1 mr-10">
 					<p>Apoio</p>
 					<div className="flex gap-1.5">

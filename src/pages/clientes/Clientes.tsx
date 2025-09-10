@@ -1,7 +1,6 @@
 import { useState } from "react";
 import ClientCard from "../../components/clientcard/ClientCard";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import NewClient from "../../components/newclientform/NewClient";
 
 function Clientes() {
 	const [searchTerm, setSearchTerm] = useState("");
@@ -31,12 +30,8 @@ function Clientes() {
 					</div>
 				</div>
 
-				<button className="bg-white text-center w-31 rounded-2xl h-9 relative text-(--secondary-ex-dark) text-sm font-semibold group" type="button">
-					<div className="bg-(--primary-dark) rounded-2xl h-9 w-1/4 flex items-center justify-center absolute left-0 top-0 group-hover:w-31 z-10 duration-500">
-						<FontAwesomeIcon icon={faPlus} color="white" />
-					</div>
-					<p className="translate-x-3.5"> Novo Cliente</p>
-				</button>
+        <NewClient />
+				
 			</div>
 
 			<div className="flex justify-between w-full h-full p-4">
